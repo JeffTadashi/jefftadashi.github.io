@@ -9,9 +9,9 @@ author:
   greetings: "Hi there! I am Jeff Tadashi Moy. Network Security and Cybersecurity Specialist!"
 favicon: 'assets/images/favicon.ico'
 baseurl: 
-production_url: https://royce.netlify.com/
-disqus: 'justgoodthemes'
-mailchimp_url: '//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117'
+production_url: https://jefftadashi.com/
+# disqus: 'justgoodthemes'
+# mailchimp_url: '//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117'
 # Add your GA Tracking Id
 ga_analytics: 
 
