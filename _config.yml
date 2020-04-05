@@ -37,8 +37,8 @@ github: 'JeffTadashi'
 navigation:
   - text: Home
     url: /
-  - text: About
-    url: /about
+  - text: About Me
+    url: /bio
   - text: Style Guide
     url: /style-guide
   - text: Contact Me
