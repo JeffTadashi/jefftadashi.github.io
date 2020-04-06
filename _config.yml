@@ -5,7 +5,7 @@ meta_description: 'Some description here'
 logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
-  image: 'authorimage.jpg'
+  image: 'jeff-atlanta.jpg'
   greetings: "Hi there! I am Jeff Tadashi Moy. Network Security and Cybersecurity Specialist!"
 favicon: 'assets/images/favicon.ico'
 baseurl: 
