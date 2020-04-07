@@ -42,7 +42,7 @@ navigation:
 #  - text: Style Guide
 #    url: /style-guide
   - text: Contact Me
-   url: /contact
+    url: /contact
   - text: Search
     url: /search
 
