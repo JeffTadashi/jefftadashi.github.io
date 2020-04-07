@@ -6,7 +6,7 @@ logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
   image: 'jeff-atlanta.jpg'
-  greetings: "Hi There! My name if Jeff Tadashi Moy, welcome to my world..."
+  greetings: "Hi there! I'm Jeff Tadashi Moy, and welcome to my world..."
 favicon: 'assets/images/favicon.ico'
 baseurl: 
 production_url: https://jefftadashi.com/
@@ -17,7 +17,7 @@ ga_analytics:
 
 # Contact form setings
 email: github-web-contact-form@jefftadashi.com
-contact_page_description: "Have any questions, requests? Feel free to leave me a note here."
+contact_page_description: "Have any questions, requests? Feel free to leave me a note here. -Jeff"
 thankyou_page_description: "Your message has been successfully sent. I'll get back to you as soon as I can!"
 
 # Social links
