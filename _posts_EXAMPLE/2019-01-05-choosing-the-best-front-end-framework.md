@@ -5,7 +5,6 @@ tags: [JavaScript, Tips]
 featured_image_thumbnail:
 featured_image: assets/images/posts/2019/desk.jpg
 featured: true
-hidden: true
 ---
 
 In computer science, a **software framework** is an abstraction in which software providing generic functionality can be selectively changed by additional user-written code, thus providing application-specific software. A software framework provides a standard way to build and deploy applications.

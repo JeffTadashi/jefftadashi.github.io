@@ -6,7 +6,7 @@ logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
   image: 'jeff-atlanta.jpg'
-  greetings: "Hi there! I'm Jeff Tadashi Moy, and welcome to my world..."
+  greetings: "Hi there! I'm Jeff, and welcome to my world..."
 favicon: 'assets/images/favicon.ico'
 baseurl: 
 production_url: https://jefftadashi.com/
