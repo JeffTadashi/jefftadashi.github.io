@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Random Color Page</title>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; /* Initial background color */
+    transition: background-color 0.5s ease;
+  }
+
+  #colorDisplay {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+  }
+</style>
+</head>
+<body>
+<div id="colorDisplay"></div>
+<script>
+  function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+  }
+
+  function changeBackgroundColor() {
+    var randomColor = getRandomColor();
+    document.body.style.backgroundColor = randomColor;
+    document.getElementById('colorDisplay').innerText = 'Current Color: ' + randomColor;
+  }
+
+  document.body.onclick = changeBackgroundColor;
+</script>
+</body>
+</html>
