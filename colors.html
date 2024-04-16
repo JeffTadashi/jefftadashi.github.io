@@ -28,7 +28,11 @@
 </head>
 <body>
 <div id="colorDisplay"></div>
+<audio id="clickSound" src="https://www.soundjay.com/buttons/button-4.mp3"></audio>
+  
 <script>
+  var clickSound = document.getElementById('clickSound');
+  
   function getRandomColor() {
     var letters = '0123456789ABCDEF';
     var color = '#';
@@ -42,6 +46,7 @@
     var randomColor = getRandomColor();
     document.body.style.backgroundColor = randomColor;
     document.getElementById('colorDisplay').innerText = 'Current Color: ' + randomColor;
+    clickSound.play(); // Play the click sound
   }
 
   document.body.onclick = changeBackgroundColor;
